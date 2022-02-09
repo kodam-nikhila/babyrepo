@@ -1,0 +1,27 @@
+package palindrome;
+import java.util.Scanner;
+
+public class Main {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		int n,first = 0,second = 0,sum;
+		do {
+			System.out.println("enter the value of n");
+			sum = n;
+		}
+			while (sum>0);
+			{
+				first=sum%10;
+				second = second*10+first;
+				sum = sum/10;
+				
+			}
+			if(n==second)
+			System.out.println("n is palindrome");
+			else
+				System.out.println("n is not a palindrome");
+		}
+	}
+
+		
